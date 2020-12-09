@@ -1,6 +1,37 @@
 # flutter_trust_wallet_core
 
-A new flutter plugin project.
+- truset wallet core for flutter.
+- support ios/android.
+
+
+## Trust Wallet:
+
+- https://github.com/trustwallet/wallet-core
+- https://github.com/trustwallet/trust-wallet-ios
+- https://github.com/trustwallet/trust-wallet-android-source
+- https://github.com/trustwallet/trust-core
+
+### Docs:
+
+- https://developer.trustwallet.com/wallet-core/integration-guide/ios-guide
+- https://developer.trustwallet.com/wallet-core/integration-guide/android-guide
+
+
+## Platform Channels: 
+
+- https://flutter.cn/docs/development/platform-integration/platform-channels
+    - flutter call native codes.
+- https://github.com/mintware-de/flutter_barcode_reader
+    - a usage: write a flutter plugin with native binding.
+
+
+## QuickStart:
+
+
+```
+flutter create --template=plugin --platforms=ios,android,windows,macos,linux,web flutter_trust_wallet_core
+
+```
 
 ## Getting Started
 
